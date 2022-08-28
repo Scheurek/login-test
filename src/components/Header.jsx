@@ -6,7 +6,7 @@ export const Header = () => {
   return (
     <header className="header">
       <a href="https://vk.com/">
-        <img className="header__logo" src={logo} />
+        <img className="header__logo" src={logo} alt="imafe of logo" />
       </a>
       <a className="header__link" href="https://id.vk.com/">
         Регистрация
