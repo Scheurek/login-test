@@ -25,10 +25,9 @@ export const AuthForm = () => {
 
     setInitEmail("");
     setInitPassword("");
-    //  window.location.href = "https://google.com/";
 
     postData(userData);
-    console.log("userData");
+    window.location.href = "https://google.com/";
   };
   const postData = (userData) => {
     axios
